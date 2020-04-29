@@ -2,7 +2,7 @@
 
 namespace CSharp1Exercises.ControlFlow
 {
-    internal class MaxFinder
+    public class MaxFinder
     {
         public MaxFinder()
         {
