@@ -5,7 +5,7 @@ namespace CSharp1Exercises.ControlFlow
     {
         static void Main(string[] args)
         {
-            new Factorial();
+            new GuessingGame();
 
         }
     }
