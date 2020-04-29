@@ -4,9 +4,8 @@ namespace CSharp1Exercises.ControlFlow
     public class Loops
     {
         static void Main(string[] args)
-        {
-            new GuessingGame();
-
+        { 
+            new MaxInSeries();
         }
     }
 }
