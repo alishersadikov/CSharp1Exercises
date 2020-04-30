@@ -8,9 +8,11 @@
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Conditionals\Conditionals.cs" />
+    <Compile Remove="ArraysAndLists\LIkes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Loops\" />
     <Folder Include="Conditionals\" />
+    <Folder Include="Lists\" />
   </ItemGroup>
 </Project>
