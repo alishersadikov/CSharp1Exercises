@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CSharp1Exercises
+namespace CSharp1Exercises.Conditionals
 {
     public class SpeedChecker
     {

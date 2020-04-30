@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp1Exercises.ControlFlow
+namespace CSharp1Exercises.Loops
 {
     internal class MaxInSeries
     {

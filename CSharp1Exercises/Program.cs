@@ -1,11 +1,11 @@
 ﻿using System;
-namespace CSharp1Exercises.ControlFlow
+namespace CSharp1Exercises
 {
-    public class Loops
+    public class Program
     {
         static void Main(string[] args)
         { 
-            new MaxInSeries();
+            new Conditionals.MaxFinder();
         }
     }
 }

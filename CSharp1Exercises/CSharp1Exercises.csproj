@@ -7,5 +7,10 @@
 
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
+    <Compile Remove="Conditionals\Conditionals.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Loops\" />
+    <Folder Include="Conditionals\" />
   </ItemGroup>
 </Project>
