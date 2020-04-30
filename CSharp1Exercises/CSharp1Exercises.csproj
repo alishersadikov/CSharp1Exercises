@@ -14,5 +14,6 @@
     <Folder Include="Loops\" />
     <Folder Include="Conditionals\" />
     <Folder Include="Lists\" />
+    <Folder Include="Strings\" />
   </ItemGroup>
 </Project>
