@@ -6,7 +6,7 @@ namespace CSharp1Exercises.Conditionals
     {
         public MaxFinder()
         {
-            Console.Write("Enter the first number: ");            var input_1 = Console.ReadLine();            var number_1 = Convert.ToInt32(input_1);            Console.Write("Enter the second number: ");            var input_2 = Console.ReadLine();            var number_2 = Convert.ToInt32(input_2);            var max = Math.Max(number_1, number_2);            Console.WriteLine("The bigger integer is: {0}", max);
+            Console.Write("Enter the first number: ");            var input1 = Console.ReadLine();            var number1 = Convert.ToInt32(input1);            Console.Write("Enter the second number: ");            var input2 = Console.ReadLine();            var number2 = Convert.ToInt32(input2);            var max = Math.Max(number1, number2);            Console.WriteLine("The bigger integer is: {0}", max);
         }
     }
 }

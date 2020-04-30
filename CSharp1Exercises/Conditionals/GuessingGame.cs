@@ -7,18 +7,18 @@ namespace CSharp1Exercises.Conditionals
         public GuessingGame()
         {
             var random = new Random();
-            var secret_number = random.Next(1, 10);        
+            var secretNumber = random.Next(1, 10);
             var attempts = 0;
 
             while (attempts < 4)
             {
                 Console.WriteLine("Guess the number (between 1 and 10):");
-                Console.WriteLine("Secret number is {0}: ", secret_number);
+                Console.WriteLine("Secret number is {0}: ", secretNumber);
                 var input = Console.ReadLine();
-                var input_number = Convert.ToInt32(input);
+                var inputNumber = Convert.ToInt32(input);
 
 
-                if (secret_number == input_number)
+                if (secretNumber == inputNumber)
                 {
                     Console.WriteLine("Your guess is correct");
                     return;

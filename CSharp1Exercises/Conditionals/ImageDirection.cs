@@ -6,12 +6,12 @@ namespace CSharp1Exercises.Conditionals
         public ImageDirection()
         {
             Console.Write("Enter image width: ");
-            var width_input = Console.ReadLine();
-            var width = Convert.ToInt32(width_input);
+            var widthInput = Console.ReadLine();
+            var width = Convert.ToInt32(widthInput);
 
             Console.Write("Enter image height: ");
-            var height_input = Console.ReadLine();
-            var height = Convert.ToInt32(height_input);
+            var heightInput = Console.ReadLine();
+            var height = Convert.ToInt32(heightInput);
 
             var style = width > height ? "landscape" : "portrait";
 

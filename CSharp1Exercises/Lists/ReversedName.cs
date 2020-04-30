@@ -8,16 +8,16 @@ namespace CSharp1Exercises.Lists
             Console.WriteLine("Enter your name:");
             var name = Console.ReadLine();
 
-            var reversed_chars = new char[name.Length];
+            var reversedChars = new char[name.Length];
 
             for (int i = name.Length; i > 0; i--)
             {
-                reversed_chars[name.Length - i] = name[i - 1];
+                reversedChars[name.Length - i] = name[i - 1];
             }
 
-            var reversed_name = new string(reversed_chars);
+            var reversedName = new string(reversedChars);
 
-            Console.WriteLine("Your reversed name: {0}", reversed_name);
+            Console.WriteLine("Your reversed name: {0}", reversedName);
         }
     }
 }

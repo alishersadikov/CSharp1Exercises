@@ -6,18 +6,18 @@ namespace CSharp1Exercises.Conditionals
         public SpeedChecker()
         {
             Console.WriteLine("Enter the speed limit: ");
-            var speed_limit = Convert.ToInt32(Console.ReadLine());
+            var speedLimit = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter the speed of the car: ");
-            var actual_speed = Convert.ToInt32(Console.ReadLine());
+            var actualSpeed = Convert.ToInt32(Console.ReadLine());
 
-            if (actual_speed <= speed_limit)
+            if (actualSpeed <= speedLimit)
             {
                 Console.WriteLine("You are OK.");
                 return;
             }
 
-            var points = (actual_speed - speed_limit) / 5;
+            var points = (actualSpeed - speedLimit) / 5;
 
             if (points <= 12)
             {
