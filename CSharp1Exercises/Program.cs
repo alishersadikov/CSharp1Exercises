@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         { 
-            new Strings.ConsecutiveList();
+            new Strings.CheckDuplicates();
         }
     }
 }
