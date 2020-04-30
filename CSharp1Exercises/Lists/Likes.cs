@@ -23,7 +23,7 @@ namespace CSharp1Exercises.Lists
 
             string text;
 
-			switch (friends.Count)
+            switch (friends.Count)
 			{
                 case 0:
                     text = "";
@@ -41,6 +41,6 @@ namespace CSharp1Exercises.Lists
 			}
 
             Console.WriteLine(text);
-		}
+        }
     }
 }
