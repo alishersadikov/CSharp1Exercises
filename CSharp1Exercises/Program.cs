@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         { 
-            new Strings.CheckDuplicates();
+            new Strings.TimeValidator();
         }
     }
 }
