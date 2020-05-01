@@ -4,7 +4,7 @@
   {
     static void Main(string[] args)
     {
-      new Strings.VowelCounter();
+      new FileExercises.LongestWord();
     }
   }
 }
